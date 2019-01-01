@@ -127,9 +127,9 @@
         <!-- ––––––––––––––––––––––––––––––––––––––––– -->
     <!-- SCRIPTS                                   -->
     <!-- ––––––––––––––––––––––––––––––––––––––––– -->
-
+</div> <!--Vue Closed-->
     <!-- (!) Placed at the end of the document so the pages load faster -->
-
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <!-- ––––––––––––––––––––––––––––––––––––––––– -->
     <!-- Initialize jQuery library                 -->
     <!-- ––––––––––––––––––––––––––––––––––––––––– -->
@@ -161,6 +161,7 @@
     <!-- Custom Template JavaScript                   -->
     <!-- ––––––––––––––––––––––––––––––––––––––––– -->
     <script type="text/javascript" src="../../public/js/main.js"></script>
+    <script src="../../public/js/app.js"></script>
 </body>
 
 

@@ -60,6 +60,7 @@
 </head>
 
 <body id="body" class="wide-layout preloader-active">
+    <div id="app">
         <!-- ––––––––––––––––––––––––––––––––––––––––– -->
     <!-- PRELOADER                                 -->
     <!-- ––––––––––––––––––––––––––––––––––––––––– -->

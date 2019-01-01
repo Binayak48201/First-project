@@ -1,8 +1,11 @@
 <?php 
-	$e_id=$_GET['show'];
-     $allproducts = $query->show('products',$e_id);
-?>
+    require '../../bootstap.php'; 
+    require '../../database/function.php';
+  $product_id = $_GET['id'];
 
-<?php 
-	echo "$allproducts->title";
- ?>
+  $statements = $query->show('products',$product_id);
+// dd($statements);
+
+// echo "$product_id->title";
+?>
+<?= $statements[0]->body; ?>
